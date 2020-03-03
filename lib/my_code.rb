@@ -1,7 +1,10 @@
 require 'pry' #binding.pry
 
 
-def map_to_negativize (array)
+def map_to_negativize (source_array)
+  source_array.map do |e|
+    binding.pry
+  end
   
   
 end
