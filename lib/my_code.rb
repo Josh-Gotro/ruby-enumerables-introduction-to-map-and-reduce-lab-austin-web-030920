@@ -20,11 +20,12 @@ end
 
 def reduce_to_total(source_array, starting_point=nil)
     if starting_point
-    s_p = starting_point
+    ttl = starting_point
       else 
-      s_p = 0 
+      ttl = 0 
     end
-    source_array.map {|e| s_p + e}
+    source_array.map {|e| ttl +=  e}
+    ttl
 end
 
 
