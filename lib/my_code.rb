@@ -18,8 +18,15 @@ def map_to_square(source_array)
 end
 
 
-def reduce_to_total(source_array, starting_point=0)
-  
+def reduce_to_total(source_array, starting_point=nil)
+  if starting_point
+   s_p = starting_point
+ else 
+   s_p = 0 
+ end
+ source_array.map {|e| starting_point + e}
+ binding.pry
+    
 end
 
 
