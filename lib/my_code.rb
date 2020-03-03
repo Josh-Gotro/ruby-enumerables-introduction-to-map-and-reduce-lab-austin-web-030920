@@ -33,8 +33,6 @@ def reduce_to_all_true(source_array)
    source_array.map do |e|
      if e == true 
         array << e 
-      else 
-        return false
       end
    end 
    array
