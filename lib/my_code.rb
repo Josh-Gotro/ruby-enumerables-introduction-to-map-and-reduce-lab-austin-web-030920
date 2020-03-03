@@ -31,7 +31,7 @@ end
 def reduce_to_all_true(source_array)
   array = []
    source_array.map do |e|
-     if !true
+     if e == !true
        return false
      else 
         array << e 
