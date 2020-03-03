@@ -9,8 +9,9 @@ def map_to_no_change(source_array)
   source_array.map {|e| e}
 end
 
- 
-
+def map_to_double(source_array)
+  source_array.map {|e| e * 2}
+end
 
 
 
