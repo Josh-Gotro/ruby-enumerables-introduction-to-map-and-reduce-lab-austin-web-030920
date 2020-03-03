@@ -1,7 +1,10 @@
 require 'pry' #binding.pry
 
 
-
+def map_to_negativize 
+  
+  
+end
 
 
 
