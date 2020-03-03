@@ -24,7 +24,7 @@ def reduce_to_total(source_array, starting_point=nil)
       else 
       s_p = 0 
     end
-    source_array.map {|e| s_p += e}
+    source_array.map {|e| s_p + e}
 end
 
 
